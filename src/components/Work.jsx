@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
+import foodCommerceim from "../assets/projects/foodCommerce.png";
 import cryptoim from "../assets/projects/crypto.png";
 import taskmateim from "../assets/projects/taskmate.png";
 import weatherim from "../assets/projects/weatherApp.png";
@@ -19,6 +20,12 @@ const Work = () => {
 
         {/* for projects */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4 cursor-pointer">
+        <ProjectItem
+            img={foodCommerceim}
+            title="FoodCoomerce"
+            live="https://food-co.netlify.app/"
+            code="https://github.com/Anzar1015/foodCommerce"
+          />
           <ProjectItem
             img={cryptoim}
             title="Cryptocurrency Tracker"
