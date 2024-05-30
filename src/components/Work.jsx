@@ -3,8 +3,8 @@ import ProjectItem from "./ProjectItem";
 import foodCommerceim from "../assets/projects/foodCommerce.png";
 import cryptoim from "../assets/projects/crypto.png";
 import taskmateim from "../assets/projects/taskmate.png";
+import nikeim from "../assets/projects/nike.png";
 import weatherim from "../assets/projects/weatherApp.png";
-import shoppingim from "../assets/projects/shoppingCart.png";
 import snakeim from "../assets/projects/snakeGame.png";
 
 const Work = () => {
@@ -33,6 +33,12 @@ const Work = () => {
             code="https://github.com/Anzar1015/crypto-tracker"
           />
           <ProjectItem
+            img={nikeim}
+            title="Taskate"
+            live="https://landing-nike-page.netlify.app/"
+            code="https://github.com/Anzar1015/nike_landing_page"
+          />
+          <ProjectItem
             img={taskmateim}
             title="Taskate"
             live="https://anzar-taskmate.netlify.app/"
@@ -43,12 +49,6 @@ const Work = () => {
             title="Weather App"
             live="https://anzar-weather-app.netlify.app/"
             code="https://github.com/Anzar1015/weather-app"
-          />
-          <ProjectItem
-            img={shoppingim}
-            title="Shopping Cart"
-            live="https://anzar-shopping-cart.netlify.app/"
-            code="https://github.com/Anzar1015/shopping-cart"
           />
           <ProjectItem
             img={snakeim}
